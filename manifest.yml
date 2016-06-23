@@ -1,0 +1,8 @@
+---
+applications:
+- name: php-app-dr
+  memory: 128M
+  buildpack: php_buildpack
+services:
+- myservice-dev
+
